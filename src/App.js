@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/' element={ <HomePage /> } />
+        <Route exact path='https://IsaacLafond.github.io/iFLYv1' element={ <HomePage /> } />
         <Route path='/destinations' element={ <DestinationsPage /> } />
         <Route path='/reviews' element={ <ReviewsPage /> } />
         <Route path='/book' element={ <BookingPage /> } />
