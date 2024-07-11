@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path='/' element={ <HomePage /> } />
-        <Route path='/iFLYv1/destinations' element={ <DestinationsPage /> } />
-        <Route path='/iFLYv1/reviews' element={ <ReviewsPage /> } />
-        <Route path='/iFLYv1/book' element={ <BookingPage /> } />
+        <Route path='/destinations' element={ <DestinationsPage /> } />
+        <Route path='/reviews' element={ <ReviewsPage /> } />
+        <Route path='/book' element={ <BookingPage /> } />
       </Routes>
     </BrowserRouter>
   );

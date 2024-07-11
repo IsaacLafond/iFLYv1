@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom'
+
 function Navbar() {
     return (
       <nav className="navbar">
         <div className="d-flex align-items-center">
+          <Link className='btn btn-danger' to="/reviews">Review</Link>
             <a className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/iFLYv1/destinations">Popular Destinations</a>
             <a className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover mx-5" href="/reviews">Reviews</a>
             <a className="btn btn-primary d-flex align-items-center rounded-pill" href="/iFLYv1/book">
