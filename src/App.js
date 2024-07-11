@@ -7,7 +7,7 @@ import BookingPage from './pages/BookingPage';
 
 function App() {
   return (
-    <BrowserRouter basename={'https://IsaacLafond.github.io/iFLYv1'}>
+    <BrowserRouter basename={'https://IsaacLafond.github.io/iFLYv1/'}>
       <Routes>
         <Route exact path='/' element={ <HomePage /> } />
         <Route path='/destinations' element={ <DestinationsPage /> } />
