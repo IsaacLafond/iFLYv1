@@ -7,7 +7,7 @@ import BookingPage from './pages/BookingPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route exact path='/' element={ <HomePage /> } />
         <Route path='/destinations' element={ <DestinationsPage /> } />
