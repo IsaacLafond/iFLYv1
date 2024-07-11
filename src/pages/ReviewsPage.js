@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 import ReviewCard from "../components/ReviewCard";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 // Recent sorts highest (newest id) first

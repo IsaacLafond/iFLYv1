@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
+import { Link } from "react-router-dom";
 
 function BookingPage() {
     let estimate = 0

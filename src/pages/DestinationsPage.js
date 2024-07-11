@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 import DestinationCard from "../components/DestinationCard";
+import { Link } from "react-router-dom";
 
 function DestinationPage() {
     const destinations = [
