@@ -86,11 +86,11 @@ function ReviewsPage() {
     return (
         <div>
             <div className="d-flex align-items-center position-sticky top-0 bg-white padded z-3">
-                <a style={{
+                <Link style={{
                     fontFamily: "Inter",
                     fontSize: "25px",
                     fontWeight: "750"
-                }} className="link-dark link-underline-opacity-0 me-auto" href="/">iFLY</a>
+                }} className="link-dark link-underline-opacity-0 me-auto" to="/">iFLY</Link>
                 <Navbar />
             </div>
             <div className="padded mt-3">

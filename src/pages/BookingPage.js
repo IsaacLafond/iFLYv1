@@ -7,11 +7,11 @@ function BookingPage() {
     return (
         <div>
             <div className="d-flex w-100 align-items-center position-fixed top-0 bg-white padded">
-                <a style={{
+                <Link style={{
                     fontFamily: "Inter",
                     fontSize: "25px",
                     fontWeight: "750"
-                }} className="link-dark link-underline-opacity-0 me-auto" href="/">iFLY</a>
+                }} className="link-dark link-underline-opacity-0 me-auto" to="/">iFLY</Link>
                 <Navbar />
             </div>
             <div className="d-flex">
@@ -50,8 +50,6 @@ function BookingPage() {
                     <p className="mt-3 fw-bold" >Estimate price: { estimate }$</p>
                     <button className="btn btn-primary mx-auto" onClick={() => alert("Booking Requested!\nA pilot will contact you regarding your trip via email soon.")}>Request Booking</button>
                 </div>
-                {/* <div className="w-75 vh-100 bg-secondary">div</div> */}
-                {/* <div style="text-decoration:none; overflow:hidden;max-width:100%;width:75px;height:100px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=rockcliffe+airport&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="make-map-infor-mation">InMotion Hosting</a><style>#embed-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div> */}
                 <div className="vh-100 w-75">
                     <iframe title="map" style={{width:"100%", height:"100%"}} frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=rockcliffe+airport&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                 </div>
